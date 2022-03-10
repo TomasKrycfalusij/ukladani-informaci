@@ -8,8 +8,7 @@ function save() {
     basic.clearScreen()
     position = [x, y]
     led.plot(x, y)
-    listdat.insertAt(x, y)
-    console.log(listdat)
+    console.log("x = ")
 }
 
 save()

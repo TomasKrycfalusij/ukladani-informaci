@@ -9,8 +9,7 @@ def save():
     basic.clear_screen()
     position = [x,y]
     led.plot(x,y)
-    listdat.insert("x =", x)
-    print(listdat)
+    print("x = ", x)
 save()
 
 
